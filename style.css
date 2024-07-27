@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  /* Navbar started */
+  nav {
+    background-color: #19b9ff;
+    height: 70px;
+  }
+  body #bg-body {
+    background-color: lawngreen;
+  }
+  input {
+    border-radius: 5px;
+    width: 25rem;
+    padding: 12px;
+  }
+  .fa-bars {
+    font-size: 30px;
+  }
+  .button {
+    border: 1px solid #ffffff;
+  }
+  .buttons-group .btn-login {
+    padding-right: 15px;
+  }
+  /* Navbar started */
+  .items img {
+    width: 50px;
+  }
+  .items p {
+    font-size: 12px;
+  }
+  .card img {
+    width: 120px;
+    margin: 0 auto;
+  }
+  .card {
+    background-color: #ffffff;
+  }
+  .bg-pink {
+    background-color: #f83e87;
+  }
+  .card-btn {
+    padding: 5px;
+    color: #198754;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .shop-by-price-btn button {
+    padding: 15px;
+    border-radius: 15px;
+    width: 16rem;
+    border: 1px solid transparent;
+    background-color: #fff348;
+  }
+  .shop-by-price-btn :hover {
+    background-color: #48afff;
+    border-radius: 15px;
+    /* border: 1px solid transparent; */
+  }
+  
+  .brands img 
+    footer ul li a 
+  .mobile img {
+    width: 330px;
+  }
+  .card-item:hover{
+      transform: scale(1.1);
+     transition: 0.05mms;
+     box-shadow: 10px 10px #dcdcdc;
+  
+  }
+  @media (max-width: 768px) {
+    .buttons-group button {
+      display: none;
+    }
+    input {
+      border-radius: 5px;
+      width: 15rem;
+      padding: 6px;
+      margin-top: 5px;
+    }
+    .brands {
+      text-align: center;
+    }
+    .fa-bars {
+      margin-left: 12px;
+      font-size: 25px;
+      margin-top: 5px;
+    }
+    .text-responsive {
+      font-size: 15px;
+    }
+    .font-small{
+      font-size: 11px;
+    }
+    .fa-brands {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 5px;
+    }
+    .reason-box img{
+    width: 120px;
+  }
+  .reason-box h3{
+    font-size:22px;
+  }
+  .reason-box button{
+    width: 110px;
+  }
+  .review-text{
+    font-size: 13px;
+  }
+  .display-none{
+    display: none;
+  }
+  .items p {
+    font-size: 10px;
+  }
+  }
